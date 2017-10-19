@@ -4,6 +4,7 @@ body {
 	width: 1920px;
 	padding:0px;
 	margin:0px;
+	font-family: 'Lato', sans-serif;
 }
 .left_side {
 	float: left;
@@ -21,12 +22,12 @@ body {
 	height: 35%;
 	width: 90%;
 	margin: 5%;
-	background-color: #3c3;
+	background-color: #222;
 }
 .twitch_chat_content {
 	width: 90%;
 	margin: 5%;
-	background-color: #3c3;
+	background-color: #222;
 	height: 55%;
 }
 .bottom_align_rank {
@@ -39,14 +40,13 @@ body {
 .league_client {
 	width: 90%;
 	height: 60%;
-	background-color: #FCF;
+	/*background-color: #222;*/
 	margin: 5%;
 	margin-top: 3%;
 }
 .social_info {
 	width: 90%;
 	height: 27%;
-	background-color: #0FC;
 	margin: 5%;
 	margin-top: 0px;
 }
@@ -58,31 +58,35 @@ body {
 	margin-right: 10px;
 	margin-left: 10px;
 	padding: 0px;
-	background-color: #f00;
 	display: inline;
 }
 .social_donator_subsection {
-	background-color: #FFF;
 	height: 40%;
 	margin-left: 10px;
 	margin-right: 10px;
 	margin-top: 10px;
-	padding: 10px;
+	background-color: #222;
+	color: #BA0D24;
 }
 .social_donator_subsection h2 {
-	background-color: #C3C;
+	color: #fff;
+	background-color: #BA0D24;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	padding-left: 10px;
-	padding-right: -10px;
+}
+.social_donator_subsection .social_donator_subsection_content {
+	padding: 10px;
 }
 
 /* Utility Classes */
 .slant_div {
-	background-color: #C3C;
+	background-color: #BA0D24;
 	width: 35%;
 	font-size: 26px;
 	padding: 5px;
+	color: #fff;
+
 }
 .upward_right_slant_triangle {
 	position: relative;
@@ -90,9 +94,9 @@ body {
 	right: -45px;
 	display: inline-block;
 	float: right;
-	border-top: 20px solid #C3C;
+	border-top: 20px solid #BA0D24;
 	border-right: 20px solid transparent;
-	border-left: 20px solid #C3C;
+	border-left: 20px solid #BA0D24;
 	border-bottom: 20px solid transparent;
 }
 .downward_right_slant_triangle {
@@ -103,8 +107,8 @@ body {
 	float: right;
 	border-top: 20px solid transparent;
 	border-right: 20px solid transparent;
-	border-left: 20px solid #C3C;
-	border-bottom: 20px solid #C3C;
+	border-left: 20px solid #BA0D24;
+	border-bottom: 20px solid #BA0D24;
 }
 .downward_left_slant_triangle {
 	position: relative;
@@ -113,9 +117,9 @@ body {
 	display: inline-block;
 	float: left;
 	border-top: 20px solid transparent;
-	border-right: 20px solid #C3C;
+	border-right: 20px solid #BA0D24;
 	border-left: 20px solid transparent;
-	border-bottom: 20px solid #C3C;
+	border-bottom: 20px solid #BA0D24;
 }
 .right_align {
 	float: right;
