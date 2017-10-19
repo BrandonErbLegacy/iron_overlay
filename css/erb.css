@@ -6,10 +6,10 @@ body {
 	margin:0px;
 }
 .left_side {
-		float: left;
-		background-color: #FFF;
-		width: 35%;
-		height: 100%;
+	float: left;
+	background-color: #FFF;
+	width: 35%;
+	height: 100%;
 }
 .right_side {
 	float: right;
@@ -20,13 +20,53 @@ body {
 
 /* Left Side */
 .webcam_content {
-	height: 375px;
+	height: 35%;
 	width: 90%;
 	margin: 5%;
 	background-color: #3c3;
 }
+.twitch_chat_content {
+	width: 90%;
+	margin: 5%;
+	background-color: #3c3;
+	height: 55%;
+}
+.bottom_align_rank {
+	position: relative;
+	bottom: -280px;
+	height: 30px;
+}
 
 /* Right Side */
+.league_client {
+	width: 90%;
+	height: 60%;
+	background-color: #FCF;
+	margin: 5%;
+	margin-top: 3%;
+}
+.social_info {
+	width: 90%;
+	height: 25%;
+	background-color: #0FC;
+	margin: 5%;
+	margin-top: 0px;
+}
+.social_panel_column {
+	width: 40%;
+	height: 100%;
+	margin: 4%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 0px;
+	background-color: #f00;
+}
+.social_donator_subsection {
+	background-color: #FFF;
+}
+.social_donator_subsection h2 {
+	background-color: #C3C;
+}
 
 /* Utility Classes */
 .slant_div {
@@ -35,7 +75,7 @@ body {
 	font-size: 26px;
 	padding: 5px;
 }
-.upward_slant_triangle {
+.upward_right_slant_triangle {
 	position: relative;
 	top: -5px;
 	right: -45px;
@@ -45,4 +85,32 @@ body {
 	border-right: 20px solid transparent;
 	border-left: 20px solid #C3C;
 	border-bottom: 20px solid transparent;
+}
+.downward_right_slant_triangle {
+	position: relative;
+	top: -5px;
+	right: -45px;
+	display: inline-block;
+	float: right;
+	border-top: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-left: 20px solid #C3C;
+	border-bottom: 20px solid #C3C;
+}
+.downward_left_slant_triangle {
+	position: relative;
+	top: -5px;
+	right: 45px;
+	display: inline-block;
+	float: left;
+	border-top: 20px solid transparent;
+	border-right: 20px solid #C3C;
+	border-left: 20px solid transparent;
+	border-bottom: 20px solid #C3C;
+}
+.right_align {
+	float: right;
+}
+.left_align {
+	float: left;
 }
